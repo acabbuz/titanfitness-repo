@@ -28,8 +28,6 @@ body {
     font-family: Bebas Neue;
     padding: 20px;
     color: #00F7C7;
-    background-color: #434343;
-    border-bottom: 5px solid #00F7C7;
     border-top: 5px solid #00F7C7;
 
 }
@@ -61,7 +59,7 @@ body {
 
 .hero h1,
 .instalaciones h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
     margin-bottom: 10px;
     font-family: Bebas Neue;
@@ -101,6 +99,7 @@ footer {
 nav {
     display: flex;
     align-items: center;
+    gap: 40px;
 
 }
 
@@ -108,16 +107,15 @@ nav a {
     font-size: 20px;
     text-decoration: none;
     color: black;
-    padding: 30px;
+    padding: 0px;
     color: white;
-    border-radius: 10px;
 
 }
 
 nav a:hover {
-    background-color: #00F7C7;
-    color: black;
-    transition: 0.5s;
+    border-bottom: 4px solid #00F7C7;
+    color: #00F7C7;
+    transition: 0.2s;
 }
 
 .logo-nom {
