@@ -186,7 +186,13 @@ footer{
         text-align: center;
         align-items: center;
     }
-
+    .titulo{
+        font-size: 30px;
+    }
+    .imagen img{
+        width: 200px;
+        height: 200px;
+    }
     .logo-titulo {
         flex-wrap: wrap;
     }
