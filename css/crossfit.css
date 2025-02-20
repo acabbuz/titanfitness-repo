@@ -43,9 +43,8 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px;
-    background-color: white;
     border-radius: 10px;
     display: inline-block;
     width: 130px;
