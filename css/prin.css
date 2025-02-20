@@ -6,7 +6,6 @@
 
 body {
     background-image: url(../img/fondo.png);
-
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -22,7 +21,7 @@ body {
 
 .cabecera {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     gap: 50px;
     align-items: center;
@@ -31,10 +30,13 @@ body {
     color: #00F7C7;
     background-color: #434343;
     border-bottom: 5px solid #00F7C7;
+    border-top: 5px solid #00F7C7;
+
 }
 
 .logo {
     width: 120px;
+    border-radius: 30px;
 
 }
 
@@ -46,6 +48,8 @@ body {
     height: 80vh;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
+
+
 
 .hero h1,
 .instalaciones h1 {
@@ -83,5 +87,46 @@ footer {
     justify-content: center;
     border-top: 5px solid #00F7C7;
     bottom: 0;
+
+}
+
+nav {
+    display: flex;
+
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+
+
+
+
+
+}
+
+nav a:hover {
+    background-color: #00F7C7;
+    color: black;
+    transition: 0.5s;
+}
+
+.logo-nom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    font-family: Bebas Neue;
+    padding: 20px;
+    color: #00F7C7;
+    background-color: #434343;
+    border-bottom: 5px solid #00F7C7;
+    border-top: 5px solid #00F7C7;
 
 }
