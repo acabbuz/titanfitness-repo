@@ -49,7 +49,15 @@ body {
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+.imagen img {
+    width: 600px;
+    border-radius: 40px;
+}
 
+.texto p {
+    color: white;
+
+}
 
 .hero h1,
 .instalaciones h1 {
@@ -62,7 +70,7 @@ body {
 
 .hero p,
 .instalaciones p {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     margin-bottom: 50px;
     font-family: Bebas Neue;
 
@@ -70,8 +78,8 @@ body {
 
 .contenedores {
     display: flex;
-    padding: 80px;
-    gap: 30px;
+    padding: 40px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
     border-bottom: 5px solid #00F7C7;
@@ -92,6 +100,7 @@ footer {
 
 nav {
     display: flex;
+    align-items: center;
 
 }
 
@@ -102,10 +111,6 @@ nav a {
     padding: 30px;
     color: white;
     border-radius: 10px;
-
-
-
-
 
 }
 
@@ -129,4 +134,11 @@ nav a:hover {
     border-bottom: 5px solid #00F7C7;
     border-top: 5px solid #00F7C7;
 
+}
+
+.spam {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
 }
