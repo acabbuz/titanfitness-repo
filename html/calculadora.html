@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
 </head>
+
 <body>
-    <input type="number" id="peso" placeholder="Peso en kg">
-    <input type="number" id="altura" placeholder="Altura en cm">
-    <input type="number" id="edad" placeholder="Edad">
-    <select id="sexo">
-        <option value="hombre">Hombre</option>
-        <option value="mujer">Mujer</option>
-    </select>
-    <button onclick="calcularGrasa()">Calcular</button>
-    <p id="resultado"></p>
-    <script src="/js/calculadora.js"></script>
+    <header class="cabecera">
+        <div class="logo-nom">
+            <img src="../img/logo.jpeg" alt="logo titan fitness" class="logo">
+            <nav>
+                <a href="html/crossfit.html">CROSSFIT</a>
+                <a href="crossfit.html">PISCINA CLIMATIZADA</a>
+                <a href="html/salapesas.html">SALA DE PESAS</a>
+                <a href="prin.html">CONTACTO</a>
+                <a href="crossfit.html">CALCULADORA</a>
+
+
+            </nav>
+
+        </div>
+        <div class="cuenta">
+            <a href="">Mi cuenta</a>
+        </div>
+
+    </header>
+
+    <div class="calculadora">
+        <h1 class="title">CALCULADORA IMC</h1>
+        <div class="inputs">
+            <input type="number" id="peso" placeholder="Peso en kg">
+            <input type="number" id="altura" placeholder="Altura en cm">
+            <input type="number" id="edad" placeholder="Edad">
+            <select id="sexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+            <button onclick="calcularGrasa()" class="boton">Calcular</button>
+        </div>
+        <div class="resultado">
+            <p id="resultado"></p>
+        </div>
+
+        <script src="/js/calculadora.js"></script>
+    </div>
 </body>
+
 </html>

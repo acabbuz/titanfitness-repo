@@ -21,7 +21,7 @@ body {
 
 .cabecera {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     gap: 50px;
     align-items: center;
@@ -30,6 +30,17 @@ body {
     color: #00F7C7;
     border-top: 5px solid #00F7C7;
 
+}
+
+.cuenta a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -55,6 +66,12 @@ body {
 .texto p {
     color: white;
 
+}
+
+.text:hover {
+    border-bottom: 4px solid #00F7C7;
+    color: #00F7C7;
+    transition: 0.2s;
 }
 
 .hero h1,
@@ -139,4 +156,14 @@ nav a:hover {
     justify-content: center;
     padding: 10px;
     text-align: center;
+}
+
+.cuenta a:hover {
+    background-color: #00F7C7;
+    transition: 0.5s;
+}
+
+.cuenta :hover {
+    border-bottom: 5px solid #00F7C7;
+    transition: 0.3s;
 }
