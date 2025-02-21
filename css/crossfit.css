@@ -11,54 +11,61 @@ body {
     background-attachment: fixed;
     color: #00F7C7;
     text-align: center;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.7);
     background-blend-mode: darken;
-}
 
+}
 
 .cabecera {
     display: flex;
-    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    align-items: center;
+    font-family: Bebas Neue;
+    padding: 20px;
     color: #00F7C7;
-    background-color: #434343;
-    border-bottom: 5px solid #00F7C7;
-    justify-content: space-between;
+    border-top: 5px solid #00F7C7;
+
 }
 
-.logo-titulo {
+.cuenta a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    gap: 30px;
-    margin-left: 30px;
-    margin-right: 20px;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    align-content: end;
-    gap: 20px;
-    margin-left: 20px;
+    gap: 40px;
+
 }
 
 nav a {
+    font-size: 20px;
     text-decoration: none;
+    color: black;
+    padding: 0px;
     color: white;
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-    width: 130px;
 
 }
 
 nav a:hover {
-    background-color: #00F7C7;
-    color: black;
-    transition: 0.5s;
+    border-bottom: 4px solid #00F7C7;
+    color: #00F7C7;
+    transition: 0.2s;
+}
+
+.logo-nom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .titulo {
@@ -129,7 +136,22 @@ section {
 }
 
 
+.spam {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
 
+.cuenta a:hover {
+    background-color: #00F7C7;
+    transition: 0.5s;
+}
+
+.cuenta :hover {
+    border-bottom: 5px solid #00F7C7;
+    transition: 0.3s;
+}
 
 .seccionHorarios {
     display: flex;

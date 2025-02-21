@@ -32,13 +32,25 @@
     <div class="calculadora">
         <h1 class="title">CALCULADORA IMC</h1>
         <div class="inputs">
+            <label for="">INTRODUZCA SU PESO: </label>
+            <BR>
             <input type="number" id="peso" placeholder="Peso en kg">
+            <BR>
+            <label for="">INTRODUZCA SU ALTURA: </label>
+            <BR>
             <input type="number" id="altura" placeholder="Altura en cm">
+            <BR>
+            <label for="">SELECCIONE SU EDAD: </label>
+            <BR>
             <input type="number" id="edad" placeholder="Edad">
+            <BR>
+            <label for="">SELECCIONE SU SEXO: </label>
+            <BR>
             <select id="sexo">
                 <option value="hombre">Hombre</option>
                 <option value="mujer">Mujer</option>
             </select>
+            <BR>
             <button onclick="calcularGrasa()" class="boton">Calcular</button>
         </div>
         <div class="resultado">
