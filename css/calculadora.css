@@ -131,3 +131,16 @@ nav a:hover {
     align-items: center;
     gap: 20px;
 }
+@media (max-width: 900px) {
+    .cabecera,.logo-nom,nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav a{
+        font-size: 40px;
+    }
+    
+}

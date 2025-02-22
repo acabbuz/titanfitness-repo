@@ -216,10 +216,12 @@ footer {
 
 
 @media (max-width: 768px) {
-    .cabecera {
+    .cabecera,nav{
+        display: flex;
         flex-direction: column;
-        text-align: center;
+        justify-content: center;
         align-items: center;
+        
     }
 
     .titulo {
@@ -241,9 +243,8 @@ footer {
         margin-top: 10px;
     }
 
-    nav a {
-        font-size: 16px;
-        margin-right: 10px;
+    nav a{
+        font-size: 40px;
     }
 
     .contenedorInfoCrossfit {
