@@ -15,9 +15,7 @@ body {
     background-blend-mode: darken;
 }
 
-.instalaciones {
-    background-color: #333;
-}
+
 
 .cabecera {
     display: flex;
@@ -41,6 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
 
 .logo {
@@ -55,7 +54,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
 .imagen img {
@@ -73,7 +72,15 @@ body {
     color: #00F7C7;
     transition: 0.2s;
 }
-
+.cuenta{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.cuenta img{
+    width: 25px;
+    height: 25px;
+}
 .hero h1,
 .instalaciones h1 {
     font-size: 5rem;
@@ -98,6 +105,7 @@ body {
     justify-content: center;
     align-items: center;
     border-bottom: 5px solid #00F7C7;
+    height: 950px;
 
 }
 
@@ -140,14 +148,50 @@ nav a:hover {
     align-items: center;
     gap: 20px;
 }
-
-.title {
-    font-family: Bebas Neue;
-    padding: 20px;
+#primero{
+    background-image: url(../img/Crossfit.jpg);
+    background-size: cover;
+    background-position: center;
+    
     color: #00F7C7;
-    background-color: #434343;
-    border-bottom: 5px solid #00F7C7;
-    border-top: 5px solid #00F7C7;
+
+    background-color: rgb(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+
+}
+#segundo{
+    text-align: center;
+    background-image: url(../img/Piscina.jpg);
+    background-size: cover;
+    
+   
+    color: #00F7C7;
+
+    background-color: rgb(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+
+}
+#tercero{
+    background-image: url(../img/Sala\ de\ pesas.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    color: #00F7C7;
+
+    background-color: rgb(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Bebas Neue;
+    padding: 5px;
+    color: white;
+    text-shadow: #434343 10px 10px 10px;
+    background-color: #00F7C7;
+    
 
 }
 
@@ -166,4 +210,37 @@ nav a:hover {
 .cuenta :hover {
     border-bottom: 5px solid #00F7C7;
     transition: 0.3s;
+}
+@media (max-width: 800px){
+
+    .cabecera,.logo-nom,nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav a{
+        font-size: 40px;
+    }
+
+}
+@media (max-width: 1200px){
+    .contenedores{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .texto p{
+        font-size: 20px;
+    }
+    .imagen img{
+        width: 55vw;
+    }
+    .hero p{
+        text-align: center;
+        font-size:40px ;
+        padding: 10px;
+    }
 }
