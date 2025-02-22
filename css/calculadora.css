@@ -1,12 +1,13 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/fondo.png);
+    background-image: url(../img/fondo.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: #00F7C7;
     margin: 0;
     padding: 0;
-    font-weight: 900;
+    background-color: rgb(0, 0, 0, 1);
+   
 
 }
 
@@ -15,7 +16,7 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 
-    background-color: rgba(108, 104, 104, 0.5);
+    background-color: rgba(108, 104, 104, 0.7);
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -32,11 +33,11 @@ select {
 
     border: 3px solid #00F7C7;
 
-    color: #00F7C7;
+    color: black;
 }
 
 ::placeholder {
-    color: #00F7C7;
+    color: black;
     font-weight: 700;
 }
 
@@ -47,13 +48,21 @@ input {
 .inputs {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-weight: 700;
+    
 }
-
+.calcular {
+    display: flex;
+   
+    justify-content: center;
+}
 button {
     font-weight: 300;
-    width: 10VW;
+    
     font-size: 20px;
+    display: flex;
+    color: black;
+    
 }
 
 .resultado {
