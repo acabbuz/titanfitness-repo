@@ -128,9 +128,10 @@ div{
 
 .Formulario h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     
 }
+
 table{
     margin: 80px;
 }
@@ -236,4 +237,13 @@ textarea{
         font-size: 40px;
     }
 
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .PreguntasFrecuentes{
+        padding: 20px;
+    }
 }
