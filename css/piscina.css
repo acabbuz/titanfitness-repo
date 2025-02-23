@@ -76,7 +76,6 @@ nav a:hover {
 }
 
 
-
 .seccionCrossfit{
     display: flex;
     justify-content: center;
@@ -98,6 +97,10 @@ nav a:hover {
 p{
     text-align: left;
 }
+p,ul{
+    font-size: 20px;
+}
+
 .imagen img{
     width: 500px;
     height: 500px;
@@ -174,7 +177,7 @@ footer{
     padding: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .cabecera,.logo-nom,nav{
         display: flex;
         flex-direction: column;

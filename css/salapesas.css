@@ -184,9 +184,12 @@ footer{
     padding: 10px;
 }
 
+p,ul{
+    font-size: 20px;
+}
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .cabecera,.logo-nom,nav{
         display: flex;
         flex-direction: column;
@@ -208,7 +211,7 @@ footer{
     nav a{
         font-size: 40px;
     }
-
+   
     
     .contenedorInfoCrossfit{
         flex-wrap: wrap;
@@ -229,4 +232,5 @@ footer{
     th, td {
         padding: 3px; 
     }
+   
 }
