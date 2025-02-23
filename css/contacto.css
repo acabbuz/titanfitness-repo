@@ -215,7 +215,10 @@ nav a:hover {
 textarea{
     padding: 10px;
 }
-
+a{
+    color: #00F7C7;
+    text-align: center;
+}
 
 @media (max-width: 620px){
     
