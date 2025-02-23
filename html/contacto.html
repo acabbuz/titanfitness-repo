@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="cabecera">
@@ -19,14 +23,16 @@
             </nav>
         </div>
     </header>
+    <main>
+    <div class="contenedor">
     <div class="PreguntasFrecuentes">
-        <h1>FAQ: Preguntas frecuentes</h1>
+        <h1>- FAQ: Preguntas frecuentes</h1>
         <p>Antes de ralizarnos una consulta, trata de consultar si tu pregunta está resuelta en una de nuestras preguntas frecuentes. </p>
-        <table>
+        <table class="tabla">
             <tr>
                 <td>
                     <details>
-                        <summary>¿Qué cuotas hay? ¿Precio del gimnasio?</summary>
+                        <summary>¿ Qué cuotas hay ? ,¿ Precio del gimnasio ?</summary>
                         <p>Las cuotas dependen del plan que elijas. Contamos con tarifas mensuales y anuales.</p>
                     </details>
                 </td>
@@ -34,7 +40,7 @@
             <tr>
                 <td>
                     <details>
-                        <summary>¿Hay permanencia?</summary>
+                        <summary>¿ Hay permanencia ?</summary>
                         <p>No, puedes cancelar en cualquier momento.</p>
                     </details>
                 </td>
@@ -42,7 +48,7 @@
             <tr>
                 <td>
                     <details>
-                        <summary>¿Horario del gimnasio?</summary>
+                        <summary>¿ Horario del gimnasio ?</summary>
                         <p>Abrimos por la mañana de 08:00h a 11:00h y por la tarde de 17:00h a 21:00h de lunes a viernes.</p>
                     </details>
                 </td>
@@ -50,7 +56,7 @@
             <tr>
                 <td>
                     <details>
-                        <summary>¿Se puede pagar en efectivo?</summary>
+                        <summary>¿ Se puede pagar en efectivo ?</summary>
                         <p>Sí, aceptamos pagos en efectivo y con tarjeta.</p>
                     </details>
                 </td>
@@ -58,28 +64,37 @@
         </table>
     </div>
     <div class="AtencionAlCliente">
-        <h1>Atención al cliente</h1>
+        <h1>- Atención al cliente</h1>
         <p>Si quieres trasladarnos cualquier cuestión puedes resolverla con nosotros a través de la siguiente vía.</p>
-        <h3>Teléfono: 954 341 245</h3>
+        <h3>- Teléfono: 954 341 245 <img src="../img/agenda.png" alt=""></h3>
         <div class="HorarioTelefono">
             <p>Horario: Lunes a Viernes de 09:00h a 10:00h o de 18:00h a 20:00h </p>
         </div>
     </div>
+    <section id="formulario">
     <div class="Formulario">
-        <h1>Formulario de contacto</h1>
+        <h1>Formulario de contacto</h1> <br>
         <form action="/contacto" method="pos">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" required placeholder="Introduzca sus Nombre....">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required placeholder="Introduzca sus email....">
             <label for="nombre">Asunto:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" required placeholder="Introduzca sus Asunto....">
             <label for="mensaje">Detalle del asunto:</label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" required placeholder="Introduzca sus detalles...."></textarea>
+            <div>
             <input type="checkbox" name="" id="" required>
-            <label for="">Conozco y acepto el tratamiento de mis datos para los fines indicados.</label>
-            <input type="submit" value="Enviar">
+            <label for="" id="check">Conozco y acepto el tratamiento de mis datos para los fines indicados.</label>
+        </div>
+        <div class="boton">
+            <input type="submit" value="Enviar" id="boton">
+        </div>
+            
         </form>
     </div>
+</section>
+</div>
+</main>
 </body>
 </html>
