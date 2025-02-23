@@ -149,7 +149,7 @@ nav a:hover {
     gap: 20px;
 }
 #primero{
-    background-image: url(../img/Crossfit.jpg);
+    background-image: url(../img/Crossfit.png);
     background-size: cover;
     background-position: center;
     
@@ -161,7 +161,7 @@ nav a:hover {
 }
 #segundo{
     text-align: center;
-    background-image: url(../img/Piscina.jpg);
+    background-image: url(../img/Piscina\ \(2\).png);
     background-size: cover;
     
    
@@ -172,7 +172,7 @@ nav a:hover {
 
 }
 #tercero{
-    background-image: url(../img/Sala\ de\ pesas.jpg);
+    background-image: url(../img/Sala\ de\ pesas.png);
     background-size: cover;
     background-position: center;
    
