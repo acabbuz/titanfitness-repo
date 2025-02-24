@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="../css/singin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,42 +12,45 @@
     <link rel="icon" type="image/png" href="/img/logo.png">
 
 </head>
+
 <body>
-  <header  class="cabecera">
-    
-    <nav>
-        <img src="../img/logo.png" alt="logo titan fitness" class="logo">
-        <a href="../index.html"><img src="../img/cerrar-sesion.png" alt="Imagen de salida"></a>
-    </nav>
-  </header>  
-  <main>
-    <div class="Formulario" >
-        <h1>INICIAR SESIÓN</h1>
-        <form action="../index.html">
-            <label for="usuario">Usuario: </label>
-            
-            <input type="text" name="usuario" id="usuario" placeholder="Introduzca su usuario...." required>
-            
-            <label for="password">Contraseña: </label>
-            
-            <input type="password" name="password" id="password" placeholder="Introduzca su contraseña...." required>
-            <div class="footer-form">
-                <div class="recordar">
-                    <a href="contacto.html">¿ Has olvidado la contraseña ?</a>
+    <header class="cabecera">
+
+        <nav>
+            <img src="../img/logo.png" alt="logo titan fitness" class="logo">
+            <a href="../index.html"><img src="../img/cerrar-sesion.png" alt="Imagen de salida"></a>
+        </nav>
+    </header>
+    <main>
+        <div class="Formulario">
+            <h1>INICIAR SESIÓN</h1>
+            <form action="../index.html">
+                <label for="usuario">Usuario: </label>
+
+                <input type="text" name="usuario" id="usuario" placeholder="Introduzca su usuario...." required>
+
+                <label for="password">Contraseña: </label>
+
+                <input type="password" name="password" id="password" placeholder="Introduzca su contraseña...."
+                    required>
+                <div class="footer-form">
+                    <div class="recordar">
+                        <a href="contacto.html">¿ Has olvidado la contraseña ?</a>
+                    </div>
+                    <div>
+                        <a href="crearuser.html">crear usuario</a>
+                    </div>
                 </div>
-                <div>
-                    <a href="crearuser.html">crear usuario</a>
+
+                <div class="boton">
+                    <input type="submit" value="Entrar" id="boton">
                 </div>
-            </div>
-            
-            <div class="boton">
-                <input type="submit" value="Entrar" id="boton">
-            </div>
-        </form>
-    </div>
-  </main>
+            </form>
+        </div>
+    </main>
     <footer>
         <p>© 2024 TITAN FITNESS. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>
