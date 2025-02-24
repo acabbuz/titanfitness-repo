@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(../img/fondo.png);
     background-size: cover;
     background-position: center;
@@ -10,13 +10,15 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: Bebas Neue;
 }
+
 .cabecera {
     display: flex;
     justify-content: space-around;
@@ -29,10 +31,13 @@ body{
     border-top: 5px solid #00F7C7;
 
 }
-main{
+
+main {
     flex: 1;
-    
+    margin: 40px;
+
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -54,29 +59,33 @@ nav a:hover {
     color: #00F7C7;
     transition: 0.2s;
 }
+
 .logo {
     width: 120px;
     border-radius: 30px;
 
 }
-.Formulario{
-    
+
+.Formulario {
+
     background-color: rgba(255, 255, 255, 0.2);
     background-blend-mode: darken;
     width: 70%;
     margin: auto;
-    
+
     padding: 30px;
     border-radius: 10px;
-    
+
 }
-.Formulario h1{
+
+.Formulario h1 {
     text-align: center;
     font-size: 5vw;
 }
-form{
-    
-    
+
+form {
+
+
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -84,34 +93,41 @@ form{
     width: 50%;
 
 }
-::placeholder{
+
+::placeholder {
     font-size: 15px;
 }
-.boton{
+
+.boton {
     text-align: center;
     margin: 10px;
-    
+
 }
-.boton input{
+
+.boton input {
     border: 4px solid #00F7C7;
 }
-.boton input:hover{
+
+.boton input:hover {
     background-color: #00F7C7;
 }
-label{
+
+label {
     padding: 0;
     margin: 0;
     font-size: 30px;
 }
 
-input{
+input {
     font-size: 20px;
     padding: 15px;
-    border-radius: 10px;  
+    border-radius: 10px;
 }
-input:hover{
+
+input:hover {
     border: 4px solid #00F7C7;
 }
+
 footer {
     background-color: #434343;
     width: 100%;
@@ -120,6 +136,6 @@ footer {
     align-items: center;
     justify-content: center;
     border-top: 5px solid #00F7C7;
-   
+
 
 }
